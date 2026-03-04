@@ -44,7 +44,7 @@ A core component of this work is the use of EMIT hyperspectral cubes to synthesi
 <p align="center">
   <img src="portfolio/assets/figures/emit_to_l89_pipeline.png" width="65%">
   <br>
-  <em>Figure 1: EMIT to Landsat-9 simulation pipeline.</em>
+  <em>Figure 1: EMIT to Multi-spectral data simulation pipeline.</em>
 </p>
 
 <p align="center">
@@ -65,24 +65,24 @@ The proposed model treats each satellite as a separate "domain" and employs a Vi
 <p align="center">
   <img src="portfolio/assets/figures/panopticon_backbone.png" width="65%">
   <br>
-  <em>Figure 3: Panopticon backbone architecture.</em>
+  <em>Figure 3: Universal + sensor-specific LN/FFN.</em>
 </p>
 
 <p align="center">
   <img src="portfolio/assets/figures/panopticon_emit_wv3.png" width="95%">
   <br>
-  <em>Figure 4: Panopticon EMIT-WV3 model.</em>
+  <em>Figure 4: Universal + sensor-specific LoRA adapters.</em>
+</p>
+
+<p align="center">
+  <img src="portfolio/assets/figures/adapter_results_layout.png" width="85%">
+  <br>
+  <em>Figure 5: Adapter details.</em>
 </p>
 
 ## Results
 
 The multi-domain learning approach with sensor-specific LoRA adapters demonstrated a significant improvement in overall accuracy compared to single-domain models and a universally shared model.
-
-<p align="center">
-  <img src="portfolio/assets/figures/adapter_results_layout.png" width="85%">
-  <br>
-  <em>Figure 5: Adapter results layout.</em>
-</p>
 
 ### Internal Comparison Snapshot
 
