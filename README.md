@@ -20,7 +20,11 @@ This repository showcases research on multi-sensor methane emission detection. I
 
 Methane plumes are transient anomalies, making them difficult to detect with traditional remote sensing methods. They are sparse in both space and time, and the long revisit intervals of individual satellites mean that many events are missed. This "revisit-time bottleneck" necessitates a multi-sensor approach to effectively capture these fleeting events.
 
-![Revisit-Time Bottleneck Flowchart](portfolio/assets/figures/image.png)
+<p align="center">
+  <img src="portfolio/assets/figures/image.png" width="65%">
+  <br>
+  <em>Figure 1: EMIT to Multi-spectral data simulation pipeline.</em>
+</p>
 
 ## Key Contributions
 
@@ -69,7 +73,7 @@ The proposed model treats each satellite as a separate "domain" and employs a Vi
 </p>
 
 <p align="center">
-  <img src="portfolio/assets/figures/panopticon_emit_wv3.png" width="95%">
+  <img src="portfolio/assets/figures/panopticon_emit_wv3.png" width="85%">
   <br>
   <em>Figure 4: Universal + sensor-specific LoRA adapters.</em>
 </p>
