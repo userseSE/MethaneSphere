@@ -46,7 +46,7 @@ I designed a full pipeline that bridges methane-source labels with diverse orbit
 A core component of this work is the use of EMIT hyperspectral cubes to synthesize multi-spectral observations for other sensors, such as Worldview-3 and Landsat-9, by integrating their respective spectral response functions (SRFs).
 
 <p align="center">
-  <img src="portfolio/assets/figures/emit_to_l89_pipeline.png" width="65%">
+  <img src="portfolio/assets/figures/emit_to_l89_pipeline.png" width="55%">
   <br>
   <em>Figure 1: EMIT to Multi-spectral data simulation pipeline.</em>
 </p>
@@ -92,10 +92,10 @@ The multi-domain learning approach with sensor-specific LoRA adapters demonstrat
 
 | Models                               | S2    | L8/9  | S5P   | WV3 | Overall Acc |
 | ------------------------------------ | ----- | ----- | ----- | --- | ----------- |
-| Single-domain models                 | 84.89 | 72.00 | 70.00 |     | 78.82       |
-| Universal shared model               | 82.30 | 77.00 | 72.20 |     | 79.73       |
-| Universal + sensor-specific LN/FFN   | 83.85 | 78.09 | 71.29 |     | 81.03       |
-| Universal + sensor-specific LoRA adapters | **87.33** | **79.04** | **72.30** | | **83.33**     |
+| Single-domain models                 | 84.89 | 72.00 | 70.00 | pending    | 78.82       |
+| Universal shared model               | 82.30 | 77.00 | 72.20 | pending     | 79.73       |
+| Universal + sensor-specific LN/FFN   | 83.85 | 78.09 | 71.29 | pending     | 81.03       |
+| Universal + sensor-specific LoRA adapters | **87.33** | **79.04** | **72.30** | pending | **83.33**     |
 
 
 ## Repository Structure
